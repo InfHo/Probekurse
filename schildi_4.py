@@ -4,18 +4,12 @@ schildi = turtle.Turtle()
 
 schildi.shape("turtle")
 
-schildi.speed(3000)
+schildi.speed(2)
 
 schildi.width(2)
 
-for zahl in range(1000):
+# fuehre eine Schleife aus
+for zahl in range(5):
     schildi.color("MediumSpringGreen")
-    schildi.forward(15+zahl)
-    schildi.right(140)
-    print("zahl:",zahl)
-
-
-
-
-
-#schildi.clear()
+    schildi.forward(150)
+    schildi.right(70)

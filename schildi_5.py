@@ -4,23 +4,20 @@ schildi = turtle.Turtle()
 
 schildi.shape("turtle")
 
-schildi.speed(30000)
+schildi.speed(9)
 
 schildi.width(2)
 
-for zahl in range(1000):
-    for farbe in ("MediumSpringGreen",
-                  "Gold",
-                  "SteelBlue",
-                  "DeepPink",
-                  "Aqua"):
-        schildi.color(farbe)
-        schildi.forward(15+zahl*3)
-        schildi.right(140)
-        print("zahl:",zahl)
+for zahl in range(50):
+    #zeige die Zahl aus der Schleife an
+    print("zahl:",zahl) 
+
+    schildi.color("MediumSpringGreen")
+
+    #erhoehe nach jeder Ausfuehrung die Vorwartszahl um die zahl in der Schleife
+    schildi.forward(15+zahl) 
 
 
+    schildi.right(140)
 
 
-
-#schildi.clear()

@@ -4,30 +4,11 @@ schildi = turtle.Turtle()
 
 schildi.shape("turtle")
 
+schildi.width(2) # Liniendicke
 
+schildi.color("MediumSpringGreen") #Farbe
 
-schildi.width(50)
+schildi.forward(150) #gehe 150 Schritte Vorwärts
+schildi.right(70) # rechtsdrehung um 70 Grad
 
-
-schildi.color("MediumSpringGreen")
-schildi.forward(150)
-schildi.right(70)
-
-schildi.color("Coral")
-schildi.forward(150)
-schildi.right(70)
-
-
-schildi.color("Steelblue")
-schildi.forward(150)
-schildi.right(70)
-
-
-schildi.color("LightSeaGreen")
-schildi.forward(150)
-schildi.right(70)
-
-
-
-
-#schildi.clear()
+schildi.forward(150)  #gehe 150 Schritte Vorwärts

@@ -1,5 +1,5 @@
-import turtle
+import turtle #importiere Turtle modul
 
-schildi = turtle.Turtle()
+schildi = turtle.Turtle() #erstelle Turtle und gib ihr einen Namen
 
-schildi.shape("turtle")
+schildi.shape("turtle") # und eine Form
